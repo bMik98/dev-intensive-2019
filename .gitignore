@@ -1,4 +1,11 @@
-#@mbedritskiy
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Local configuration file (sdk path, etc)
+local.properties
+
 # Gradle files
 .gradle/
 
@@ -13,3 +20,14 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Version control
+vcs.xml
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/
+# Встроенные файлы приложений * .apk * .ap_ * .aab # Локальный файл конфигурации (путь SDK и т. Д.) local.properties # Gradle файлы .gradle / # Пользовательские конфигурации * .iml # ОС-специфичные файлы .DS_Store .DS_Store? ._ * .Spotlight-V100 .Trashes ehthumbs.db Thumbs.db # Контроль версий vcs.xml # линт ворс / промежуточные / ворс / генерироваться / ворс / выходы / пух / TMP / пух / отчеты /
