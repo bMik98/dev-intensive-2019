@@ -1,7 +1,29 @@
-# Gradle files
+# Built application files
+/*/build/
+
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle generated files
 .gradle/
+build/
+gradle/
+gradlew
+gradle.properties
+gradlew.bat
+
+app/libs
+app/src/test/
+app/src/androidTest/
+
+# Signing files
+.signing/
 
 # User-specific configurations
+.idea/
 *.iml
 
 # OS-specific files
@@ -12,3 +34,4 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+# Встроенные файлы приложений / * / Сборки / # Crashlytics конфигурации com_crashlytics_export_strings.xml # Локальный файл конфигурации (путь SDK и т. Д.) local.properties # Gradle сгенерированные файлы .gradle / строить / Gradle / gradlew gradle.properties gradlew.bat приложение / ЛИЭС приложение / SRC / тест / приложение / SRC / androidTest / # Подписание файлов .signing / # Пользовательские конфигурации .idea / * .iml # ОС-специфичные файлы .DS_Store .DS_Store? ._ * .Spotlight-V100 .Trashes ehthumbs.db Thumbs.db
