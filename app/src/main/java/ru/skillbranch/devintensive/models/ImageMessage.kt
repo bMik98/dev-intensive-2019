@@ -16,7 +16,7 @@ class ImageMessage(
             true -> "получил"
             false -> "отправил"
         }
-        return "$id ${from?.firstName} ${from?.lastName} $action изображение $image $date"
+        return "$id ${from?.firstName} ${from?.lastName} $action изображение $image "
     }
 
 }

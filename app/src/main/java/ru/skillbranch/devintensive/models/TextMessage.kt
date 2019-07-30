@@ -12,8 +12,11 @@ class TextMessage(
 ) : BaseMessage(id, from, chat, isIncoming, date) {
 
     override fun formatMessage(): String {
-        val action = when(isIncoming) {true-> "получил" false-> "отправил"}
-        return "$id ${from?.firstName} ${from?.lastName} $action сообщение $text  $date"
+        val action = when (isIncoming) {
+            true -> "получил"
+            false -> "отправил"
+        }
+        return "$id ${from?.firstName} ${from?.lastName} $action сообщение $text "
     }
 
 }
