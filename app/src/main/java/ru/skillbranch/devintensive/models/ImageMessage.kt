@@ -12,7 +12,11 @@ class ImageMessage(
 ) : BaseMessage(id, from, chat, isIncoming, date) {
 
     override fun formatMessage(): String {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val action = when (isIncoming) {
+            true -> "получил"
+            false -> "отправил"
+        }
+        return "$id ${from?.firstName} ${from?.lastName} $action изображение $image $date"
     }
 
 }
